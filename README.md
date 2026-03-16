@@ -80,9 +80,7 @@ open index.html
 
 ## ⚙️ Configuration
 
-```
 
----
 
 ## 📦 Projects Showcased
 
