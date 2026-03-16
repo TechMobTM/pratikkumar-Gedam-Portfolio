@@ -8,7 +8,7 @@ A fully responsive personal portfolio website built with vanilla HTML, CSS, and 
 
 ## 🌐 Live Demo
 
-> [_Add your deployment link here (e.g., GitHub Pages, Netlify, Vercel)_](https://techmobtm.github.io/pratikkumar-Gedam-Portfolio/)
+> [click here_](https://techmobtm.github.io/pratikkumar-Gedam-Portfolio/)
 ---
 
 ## 📸 Preview
@@ -80,22 +80,6 @@ open index.html
 
 ## ⚙️ Configuration
 
-### Contact Form
-Replace the placeholder Formspree endpoint in `index.html`:
-
-```html
-<!-- Find this line and replace YOUR_FORM_ID -->
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-Sign up at [formspree.io](https://formspree.io) to get your free form ID.
-
-### Social Links
-Update the empty `href` attributes in the footer with your actual profile URLs:
-
-```html
-<a href="https://linkedin.com/in/your-profile" target="_blank">...</a>
-<a href="https://github.com/your-username" target="_blank">...</a>
 ```
 
 ---
