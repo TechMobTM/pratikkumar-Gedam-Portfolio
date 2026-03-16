@@ -1,378 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pratikkumar Gedam</title>
-
-  <!-- Link CSS  -->
+  <title>Pratikkumar Gedam — Full Stack & IoT Developer</title>
   <link rel="stylesheet" href="./styles.css" />
-
-  <!-- Favicon  -->
   <link rel="shortcut icon" href="./Images/userAsset/icon.ico" type="image/x-icon" />
 </head>
-
 <body>
-  <div id="wrapper">
-    <!-- Header Start -->
-    <header>
-      <div class="logo">
-        <img src="./Images/userAsset/p.png" alt="#" />
-        <h2 class="logoText">ratikkumar Gedam</h2>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contactMe">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Header End  -->
+<div id="wrapper">
 
-    <!-- Hero Section Start  -->
-    <section class="heroSection">
-      <h3 class="fadedText absolute">Pratikkumar Gedam</h3>
-      <div class="infoContainer">
-        <div class="heading">Hi! Pratikkumar Gedam</div>
-        <div class="heading subHeading">
-          I am a <span class="role"></span>
-        </div>
-        <p class="desc">
-          I’m a software developer and here is my portfolio website. Here
-          you’ll learn about my journey as a software developer.
-        </p>
-        <div class="btn">Hire Me</div>
+  <!-- HEADER -->
+  <header id="mainHeader">
+    <div class="logo">
+      <img src="./Images/userAsset/p.png" alt="P" />
+      <h2 class="logoText">ratikkumar Gedam</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#timeline">Journey</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contactMe">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="./Resume__14_.pdf" download class="headerCvBtn">
+      <i class="fa-solid fa-download"></i> Resume
+    </a>
+  </header>
+
+  <!-- HERO -->
+  <section class="heroSection">
+    <h3 class="fadedText absolute">Pratikkumar Gedam</h3>
+    <div class="infoContainer">
+      <p class="heroGreeting reveal">Welcome to my portfolio</p>
+      <div class="heading reveal reveal-delay-1">Hi, I'm Pratikkumar Gedam</div>
+      <div class="heading subHeading reveal reveal-delay-2">I am a <span class="role"></span></div>
+      <p class="desc reveal reveal-delay-3">
+        B.Tech EE grad from <strong>VJTI Mumbai</strong> turned Full Stack Developer.
+        I build MERN web apps, Python automation tools, IoT systems and ML models —
+        bridging hardware and software in ways most developers don't get the chance to.
+      </p>
+      <div class="heroBtnGroup reveal reveal-delay-4">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="./Resume__14_.pdf" download class="btnOutline">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
       </div>
-      <div class="imgContainer">
-        <div class="absolute icons iconDots">
-          <img src="./images/userAsset/dots.png" alt="" />
-        </div>
-        <div class="absolute icons icon-cube">
-          <img src="./images/userAsset/cube.png" alt="" />
-        </div>
-        <div class="absolute icons icon-circle">
-          <img src="./images/userAsset/circle.png" alt="" />
-        </div>
-        <div class="absolute icons iconZigZag">
-          <img src="./images/userAsset/zigzags.png" alt="" />
-        </div>
-        <div class="absolute icons icon-plus">
-          <img src="./images/userAsset/plus.png" alt="" />
-        </div>
-        <div class="">
-          <div class="userImage">
-            <!-- <img src="./images/userAsset/pratik.jpg" width="345px" height="390px" alt="" /> -->
-            <img src="./Images/userAsset/pratik.png" alt="" />
+      <div class="heroStats reveal reveal-delay-5">
+        <div class="heroStat"><span class="heroStatNum">3+</span><span class="heroStatLabel">Years Experience</span></div>
+        <div class="heroStat"><span class="heroStatNum">6</span><span class="heroStatLabel">Projects Built</span></div>
+        <div class="heroStat"><span class="heroStatNum">6</span><span class="heroStatLabel">Certifications</span></div>
+      </div>
+    </div>
+    <div class="imgContainer">
+      <div class="absolute icons iconDots"><img src="./images/userAsset/dots.png" alt="" /></div>
+      <div class="absolute icons icon-cube"><img src="./images/userAsset/cube.png" alt="" /></div>
+      <div class="absolute icons iconZigZag"><img src="./images/userAsset/zigzags.png" alt="" /></div>
+      <div class="userImage"><img src="./Images/userAsset/pratik.png" alt="Pratikkumar Gedam" /></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projectSection">
+    <h2 class="projectTitle reveal">Projects</h2>
+    <div class="projectFilterContainer reveal">
+      <button class="filterBtn active" data-filter="all">All</button>
+      <button class="filterBtn" data-filter="fullstack">Full Stack</button>
+      <button class="filterBtn" data-filter="web">Web Dev</button>
+      <button class="filterBtn" data-filter="iot">IoT / Hardware</button>
+      <button class="filterBtn" data-filter="ml">ML / Data</button>
+    </div>
+    <div class="projectContainer">
+
+      <div class="projectCard reveal" id="project1" data-category="fullstack">
+        <div class="projectNumber rightNumber">01</div>
+        <div class="projectBadge">Featured</div>
+        <div class="projectContent leftProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-layer-group"></i> Full Stack</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> Mar 2022 – Feb 2025</span>
+          </div>
+          <div class="projectSkillsContainer">
+            <span class="techTag">React</span><span class="techTag">Node.js</span>
+            <span class="techTag">Express</span><span class="techTag">MongoDB</span><span class="techTag">JWT</span>
+          </div>
+          <h2 class="projectHeading">JOBIFY</h2>
+          <p class="projectSubHeading">Full-stack MERN job tracking platform with JWT auth, dynamic dashboards and advanced filtering.</p>
+          <div class="projectStats">
+            <div class="statItem"><span class="statValue">100%</span><span class="statLabel">Auth Security</span></div>
+            <div class="statItem"><span class="statValue">25%</span><span class="statLabel">Faster Search</span></div>
+            <div class="statItem"><span class="statValue">30%</span><span class="statLabel">API Speed Gain</span></div>
+          </div>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+            <a href=""><i class="fa-solid fa-link icon"></i></a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Hero Section End  -->
 
-    <!-- Project Section Start -->
-    <section id="projects" class="projectSection">
-      <h2 class="projectTitle">Projects</h2>
-      <div class="projectContainer">
-        <div class="projectCard" id="project1">
-          <div class="projectNumber rightNumber">01</div>
-          <div class="projectContent leftProjectContent">
-            <div class="projectSkillsContainer">
-              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
-              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/Express.png" alt="" />
-              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
-              <img class="projectSkill" src="./images/stack/NodeJs.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/MongoDB.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" />
-            </div>
-            <h2 class="projectHeading">Tint & Orange</h2>
-            <p class="projectSubHeading">
-              Its is a car modification copany which provide you sheets to
-              protect your car from scratch
-            </p>
-            <div class="btnGroup">
-              <button class="btn btnProject">Read More</button>
-              <a href="">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
+      <div class="projectCard reveal" id="project2" data-category="web">
+        <div class="projectNumber leftNumber">02</div>
+        <div class="projectBadge internBadge">Internship</div>
+        <div class="projectContent rightProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-globe"></i> Web Development</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> Sep – Oct 2023</span>
           </div>
-        </div>
-
-        <div class="projectCard" id="project2">
-          <div class="projectNumber leftNumber">02</div>
-          <div class="projectContent rightProjectContent">
-            <div class="projectSkillsContainer">
-              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
-              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
-
-              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" />
-            </div>
-            <h2 class="projectHeading">Breaking Copyrights</h2>
-            <p class="projectSubHeading">
-              A platform to download copyrights free youtube music
-            </p>
-            <div class="btnGroup">
-              <button class="btn btnProject">Read More</button>
-              <a href="">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
+          <div class="projectSkillsContainer">
+            <span class="techTag">HTML</span><span class="techTag">CSS</span>
+            <span class="techTag">JavaScript</span><span class="techTag">REST APIs</span>
           </div>
-        </div>
-        <div class="projectCard" id="project3">
-          <div class="projectNumber rightNumber">03</div>
-          <div class="projectContent leftProjectContent">
-            <div class="projectSkillsContainer">
-              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
-              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
-              <img class="projectSkill" src="./images/stack/Express.png" alt="" />
-              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
-
-              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" />
-            </div>
-            <h2 class="projectHeading">Isha Tattva</h2>
-            <p class="projectSubHeading">
-              A Website for interior designer to showcase her works and
-              samples
-            </p>
-            <div class="btnGroup">
-              <button class="btn btnProject">Read More</button>
-              <a href="">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="projectCard" id="project4">
-          <div class="projectNumber leftNumber">04</div>
-          <div class="projectContent rightProjectContent">
-            <div class="projectSkillsContainer">
-              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
-              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
-
-              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" />
-            </div>
-            <h2 class="projectHeading">Granit</h2>
-            <p class="projectSubHeading">
-              A architectural website to plan your building or home (Hebrew
-              Language)
-            </p>
-            <div class="btnGroup">
-              <button class="btn btnProject">Read More</button>
-              <a href="">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
+          <h2 class="projectHeading">Inventrom Website</h2>
+          <p class="projectSubHeading">Front-end development and optimisation for Inventrom during a 6-week remote internship with the DevOps team.</p>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+            <a href=""><i class="fa-solid fa-link icon"></i></a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Project Section End  -->
 
-    <!-- Skill Section Start  -->
-    <section class="skillContainer" id="skills">
-      <div class="skillFadedText absolute">Skills</div>
-      <div class="leftSkillContainer">
-        <h2 class="skillHeading"><span>M</span>e and <br />MyTech Stack</h2>
-        <div class="skillSubHeading">
-          <p>
-            Hi Everyone My name is Pratikkumar Gedam I am a Full Stack Web
-            Developer I have been working for last 3 Years and Currently I am
-            working with a Budding Startup in USA and a full Time Freelancer.
-            Currently I am working on NextJs and Making Beautiful UI-UX are my
-            fey features
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-            doloremque aspernatur, maiores voluptatum minus laudantium?
-            Perspiciatis accusamus minima porro dolores necessitatibus, magni
-            dolorem et qui veniam nulla sequi molestiae maxime.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-            quidem quos ullam veritatis voluptates tenetur qui ipsa nulla
-            culpa itaque?
-          </p>
-        </div>
-      </div>
-
-      <div class="rightSkillContainer">
-        <img src="./images/userAsset/blob vector.png" class="blobStyle" alt="" />
-
-        <img src="./images/stack/HTML.png" alt="" class="skillsLogo" />
-        <img src="./images/stack/CSS.png" alt="" class="skillsLogo" />
-        <img src="./images/stack/Javascript.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/React.png" alt="" class="skillsLogo" />
-        <img src="./images/stack/NodeJs.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Next.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Redux.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Tailwind.png" alt="" class="skillsLogo" />
-        <img src="./images/stack/Bootstrap.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/MaterialUI.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Express.png" alt="" class="skillsLogo" />
-        <img src="./images/stack/Git.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Github.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Graphql.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/MongoDB.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Vercel.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/ChartJs.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Bash.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/Docker.svg" alt="" class="skillsLogo" />
-        <img src="./images/stack/K8s.svg" alt="" class="skillsLogo" />
-      </div>
-    </section>
-    <!-- Skill Section End  -->
-
-    <!-- Contact Me Section Start  -->
-    <section class="contactMeSection" id="contactMe">
-      <div class="container">
-        <h2>Contact Me</h2>
-        <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
-
-        <div class="contactUsForm">
-          <form action="#">
-            <div class="formFieldContainer">
-              <input class="formField" type="text" placeholder="Enter your name" />
-            </div>
-            <div class="formFieldContainer">
-              <input class="formField" type="email" placeholder="Enter your email address" />
-            </div>
-            <div class="formFieldContainer">
-              <input class="formField" type="text" placeholder="Enter your Subject address" />
-            </div>
-            <div class="formFieldContainer">
-              <textarea class="formField" name="message" id="" cols="30" rows="10"
-                placeholder="Enter your message"></textarea>
-            </div>
-            <div class="formBtn">
-              <button type="submit" class="btn" id="submit-btn">
-                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Me Section End  -->
-
-    <!-- Footer Section Start  -->
-    <footer>
-      <div class="container footerContainer">
-        <div class="footerFadedText">Pratik Gedam</div>
-        <div class="linkContainer">
-          <div>
-            <a href="#projects">Projects</a>
+      <div class="projectCard reveal" id="project3" data-category="ml">
+        <div class="projectNumber rightNumber">03</div>
+        <div class="projectContent leftProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-robot"></i> Python / Automation</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> 2023</span>
           </div>
-          <div>
-            <a href="#skills">Skills</a>
+          <div class="projectSkillsContainer">
+            <span class="techTag">Python</span><span class="techTag">BeautifulSoup</span>
+            <span class="techTag">Requests</span><span class="techTag">SMTP</span>
           </div>
-          <div>
-            <a href="#contactMe">Contact Me</a>
+          <h2 class="projectHeading">Amazon Price Tracker</h2>
+          <p class="projectSubHeading">Real-time scraper monitoring Amazon prices and sending automated email alerts when they drop below a threshold.</p>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
           </div>
         </div>
-        <div class="iconContainer">
-          <i class="fa-brands fa-linkedin icon"></i>
-          <i class="fa-brands fa-github icon"></i>
-          <i class="fa-brands fa-twitter icon"></i>
-          <i class="fa-brands fa-instagram icon"></i>
-          <i class="fa-regular fa-envelope icon"></i>
+      </div>
+
+      <div class="projectCard reveal" id="project4" data-category="iot">
+        <div class="projectNumber leftNumber">04</div>
+        <div class="projectContent rightProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-microchip"></i> IoT / Hardware</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> Feb – May 2022</span>
+          </div>
+          <div class="projectSkillsContainer">
+            <span class="techTag">IoT</span><span class="techTag">ESP8266</span>
+            <span class="techTag">Blynk</span><span class="techTag">Arduino</span>
+          </div>
+          <h2 class="projectHeading">Smart Theft Detection</h2>
+          <p class="projectSubHeading">Anti-shoplifting IoT system using ESP8266 and a load cell — detects weight changes and streams live alerts to Blynk.</p>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+          </div>
         </div>
       </div>
-    </footer>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-  <!-- <script>
-      document.addEventListener("DOMContentLoaded", function (event) {
-        // array with texts to type in typewriter
-        var dataText = [
-          "Full Stack Developer",
-          "Web Developer",
-          "UI-UX Designer",
-          "Backend Developer",
-          "Coder",
-        ];
+      <div class="projectCard reveal" id="project5" data-category="iot">
+        <div class="projectNumber rightNumber">05</div>
+        <div class="projectContent leftProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-solar-panel"></i> IoT / Embedded</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> Jan 2023 – Apr 2024</span>
+          </div>
+          <div class="projectSkillsContainer">
+            <span class="techTag">Arduino</span><span class="techTag">MPPT</span><span class="techTag">Embedded C</span>
+          </div>
+          <h2 class="projectHeading">MPPT Solar Tracker</h2>
+          <p class="projectSubHeading">Solar panel efficiency maximiser with automatic orientation adjustment using MPPT on Arduino, built with a multidisciplinary team.</p>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+          </div>
+        </div>
+      </div>
 
-        // type one text in the typwriter
-        // keeps calling itself until the text is finished
-        function typeWriter(text, i, fnCallback) {
-          // chekc if text isn't finished yet
-          if (i < text.length) {
-            // add next character to h1
-            document.querySelector(".role").innerHTML =
-              text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+      <div class="projectCard reveal" id="project6" data-category="ml">
+        <div class="projectNumber leftNumber">06</div>
+        <div class="projectContent rightProjectContent">
+          <div class="projectMeta">
+            <span class="projectCategory"><i class="fa-solid fa-car"></i> Simulation / ML</span>
+            <span class="projectDuration"><i class="fa-regular fa-calendar"></i> Mar – May 2023</span>
+          </div>
+          <div class="projectSkillsContainer">
+            <span class="techTag">MATLAB</span><span class="techTag">Simulink</span>
+          </div>
+          <h2 class="projectHeading">EV Modeling – MATLAB</h2>
+          <p class="projectSubHeading">EV simulation in Simulink covering motor, battery, drive cycle and regenerative braking with parameter tuning for efficiency.</p>
+          <div class="btnGroup">
+            <a href="" class="btn btnProject">View Project</a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+          </div>
+        </div>
+      </div>
 
-            // wait for a while and call this function again for next character
-            setTimeout(function () {
-              typeWriter(text, i + 1, fnCallback);
-            }, 100);
-          }
-          // text finished, call callback if there is a callback function
-          else if (typeof fnCallback == "function") {
-            // call callback after timeout
-            setTimeout(fnCallback, 700);
-          }
-        }
-        // start a typewriter animation for a text in the dataText array
-        function StartTextAnimation(i) {
-          if (typeof dataText[i] == "undefined") {
-            setTimeout(function () {
-              StartTextAnimation(0);
-            }, 20000);
-          }
-          // check if dataText[i] exists
-          if (i < dataText[i].length) {
-            // text exists! start typewriter animation
-            typeWriter(dataText[i], 0, function () {
-              // after callback (and whole text has been animated), start next text
-              StartTextAnimation(i + 1);
-            });
-          }
-        }
-        // start the text animation
-        StartTextAnimation(0);
-      });
-    </script> -->
-  <script>
-    var typeData = new Typed(".role", {
-      strings: [
-        "Full Stack Developer",
-        "Web Developer",
-        "UI-UX Designer",
-        "Backend Developer",
-        "Coder",
-      ],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 1000,
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skillContainer" id="skills">
+    <div class="skillFadedText absolute">Skills</div>
+    <div class="leftSkillContainer">
+      <h2 class="skillHeading reveal"><span>M</span>e and <br />My Tech Stack</h2>
+      <div class="skillSubHeading">
+        <p class="reveal reveal-delay-1">I'm <strong>Pratikkumar Gedam</strong>, a B.Tech EE graduate from <strong>VJTI Mumbai</strong> who found his calling in software. Over 3+ years I've built IoT systems, MATLAB EV simulations and full-stack MERN apps — bridging hardware and software in ways most developers don't get to.</p>
+        <p class="reveal reveal-delay-2">On the web side I specialise in the <strong>MERN stack</strong> — React UIs, Node.js &amp; Express backends, MongoDB and SQL. I hold 6 industry certifications across Full Stack, Python, Data Science and Data Analysis.</p>
+        <p class="reveal reveal-delay-3">Beyond the browser I work with <strong>Python automation</strong>, ML pipelines (Scikit-Learn, Pandas, NumPy) and embedded systems (Arduino, ESP8266) — a multidisciplinary mindset that sets me apart.</p>
+        <div class="skillCategoryRow">
+          <div class="skillCategoryCard reveal reveal-delay-1"><span class="skillCatIcon"><i class="fa-solid fa-display"></i></span><span class="skillCatLabel">Frontend</span><span class="skillCatTags">HTML · CSS · JavaScript · React · Bootstrap</span></div>
+          <div class="skillCategoryCard reveal reveal-delay-2"><span class="skillCatIcon"><i class="fa-solid fa-server"></i></span><span class="skillCatLabel">Backend</span><span class="skillCatTags">Node.js · Express.js · REST APIs</span></div>
+          <div class="skillCategoryCard reveal reveal-delay-3"><span class="skillCatIcon"><i class="fa-solid fa-database"></i></span><span class="skillCatLabel">Database</span><span class="skillCatTags">MongoDB · SQL · SQLite</span></div>
+          <div class="skillCategoryCard reveal reveal-delay-4"><span class="skillCatIcon"><i class="fa-solid fa-microchip"></i></span><span class="skillCatLabel">Embedded / IoT</span><span class="skillCatTags">Arduino · ESP8266 · Embedded C · MATLAB · Simulink</span></div>
+          <div class="skillCategoryCard reveal reveal-delay-5"><span class="skillCatIcon"><i class="fa-brands fa-python"></i></span><span class="skillCatLabel">Python / ML</span><span class="skillCatTags">Scikit-Learn · Pandas · NumPy · BeautifulSoup</span></div>
+          <div class="skillCategoryCard reveal reveal-delay-5"><span class="skillCatIcon"><i class="fa-solid fa-wrench"></i></span><span class="skillCatLabel">Tools</span><span class="skillCatTags">Git · GitHub · Postman · VS Code</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="rightSkillContainer reveal reveal-delay-2">
+      <img src="./images/userAsset/blob vector.png" class="blobStyle" alt="" />
+      <img src="./images/stack/HTML.png" alt="HTML" class="skillsLogo" title="HTML" />
+      <img src="./images/stack/CSS.png" alt="CSS" class="skillsLogo" title="CSS" />
+      <img src="./images/stack/Javascript.svg" alt="JavaScript" class="skillsLogo" title="JavaScript" />
+      <img src="./images/stack/React.png" alt="React" class="skillsLogo" title="React" />
+      <img src="./images/stack/Bootstrap.svg" alt="Bootstrap" class="skillsLogo" title="Bootstrap" />
+      <img src="./images/stack/NodeJs.svg" alt="Node.js" class="skillsLogo" title="Node.js" />
+      <img src="./images/stack/Express.png" alt="Express.js" class="skillsLogo" title="Express.js" />
+      <img src="./images/stack/MongoDB.svg" alt="MongoDB" class="skillsLogo" title="MongoDB" />
+      <img src="./images/stack/Git.svg" alt="Git" class="skillsLogo" title="Git" />
+      <img src="./images/stack/Github.svg" alt="GitHub" class="skillsLogo" title="GitHub" />
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timelineSection" id="timeline">
+    <div class="timelineInner">
+      <h2 class="timelineTitle reveal"><span>My</span> Journey</h2>
+      <p class="timelineSubtitle reveal">Education &amp; Experience</p>
+      <div class="timeline">
+        <div class="timelineItem reveal">
+          <div class="timelineYear">Sep 2023 – Oct 2023</div>
+          <div class="timelineRole">Web App Developer Intern</div>
+          <div class="timelineOrg">Bolt IoT / Inventrom — Remote</div>
+          <p class="timelineDesc">Developed and optimised front-end components for the Inventrom website. Integrated web services, assisted in deployment tasks and collaborated with the DevOps team under Mr. Ashwin Salgaocar across a 6-week remote engagement.</p>
+        </div>
+        <div class="timelineItem reveal reveal-delay-1">
+          <div class="timelineYear">2021 – 2024</div>
+          <div class="timelineRole">B.Tech — Electrical Engineering</div>
+          <div class="timelineOrg">Veermata Jijabhai Technological Institute (VJTI), Mumbai</div>
+          <p class="timelineDesc">Studied DSA, Web Development and DBMS alongside core electrical subjects. Built IoT projects, EV simulations in MATLAB, and transitioned into full-stack software development.</p>
+        </div>
+        <div class="timelineItem reveal reveal-delay-2">
+          <div class="timelineYear">2019 – 2021</div>
+          <div class="timelineRole">HSC — Science (State Board)</div>
+          <div class="timelineOrg">Horizon Junior College, Pune</div>
+          <p class="timelineDesc">Completed Higher Secondary Certificate in Science with Physics, Chemistry and Mathematics.</p>
+        </div>
+        <div class="timelineItem reveal reveal-delay-3">
+          <div class="timelineYear">2018 – 2019</div>
+          <div class="timelineRole">SSC — State Board</div>
+          <div class="timelineOrg">Cambridge Vidyalaya, Nanded</div>
+          <p class="timelineDesc">Completed Secondary School Certificate from Nanded, Maharashtra.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certSection" id="certifications">
+    <h2 class="certTitle reveal"><span>My</span> Certifications</h2>
+    <p class="certSubtitle reveal">Continuous learning across full stack, data science and embedded systems</p>
+    <div class="certGrid">
+      <div class="certCard reveal"><div class="certIcon certBlue"><i class="fa-solid fa-globe"></i></div><div class="certInfo"><span class="certName">Full Stack Web Development Bootcamp</span><span class="certIssuer">Faisal Zamir · Jafri Code</span></div></div>
+      <div class="certCard reveal reveal-delay-1"><div class="certIcon"><i class="fa-brands fa-python"></i></div><div class="certInfo"><span class="certName">100 Days of Python Pro Bootcamp</span><span class="certIssuer">Dr. Angela Yu</span></div></div>
+      <div class="certCard reveal reveal-delay-2"><div class="certIcon certGreen"><i class="fa-solid fa-chart-bar"></i></div><div class="certInfo"><span class="certName">Data Analysis — 9 in 1 Courses</span><span class="certIssuer">Jobshie Academy</span></div></div>
+      <div class="certCard reveal reveal-delay-3"><div class="certIcon certAmber"><i class="fa-solid fa-flask"></i></div><div class="certInfo"><span class="certName">Data Science Bootcamp</span><span class="certIssuer">Raj Chhabria</span></div></div>
+      <div class="certCard reveal reveal-delay-4"><div class="certIcon certBlue"><i class="fa-solid fa-code"></i></div><div class="certInfo"><span class="certName">C++ Expert Certification</span><span class="certIssuer">Parv Shah</span></div></div>
+      <div class="certCard reveal reveal-delay-5"><div class="certIcon certGreen"><i class="fa-solid fa-table"></i></div><div class="certInfo"><span class="certName">MS Excel / Excel 2022</span><span class="certIssuer">Yassin Marco</span></div></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contactMeSection" id="contactMe">
+    <div class="container">
+      <h2 class="reveal">Contact Me</h2>
+      <h3 class="reveal">Questions, thoughts, or just want to say hello?</h3>
+      <div class="contactUsForm reveal reveal-delay-1">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="formFieldContainer"><input class="formField" type="text" name="name" placeholder="Your name" required /></div>
+          <div class="formFieldContainer"><input class="formField" type="email" name="email" placeholder="Your email address" required /></div>
+          <div class="formFieldContainer"><input class="formField" type="text" name="subject" placeholder="Subject" required /></div>
+          <div class="formFieldContainer"><textarea class="formField" name="message" cols="30" rows="8" placeholder="Your message" required></textarea></div>
+          <div class="formBtn"><button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footerContainer">
+      <div class="footerFadedText">Pratik Gedam</div>
+      <div class="linkContainer">
+        <div><a href="#projects">Projects</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#timeline">Journey</a></div>
+        <div><a href="#certifications">Certs</a></div>
+        <div><a href="#contactMe">Contact</a></div>
+      </div>
+      <div class="iconContainer">
+        <a href="" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+        <a href="mailto:your@email.com"><i class="fa-regular fa-envelope icon"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<button class="backToTop" id="backToTop" title="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+  const wrapper = document.getElementById('wrapper');
+  const header  = document.getElementById('mainHeader');
+  const backBtn = document.getElementById('backToTop');
+
+  new Typed(".role", {
+    strings: ["Full Stack Developer","MERN Stack Developer","IoT Developer","ML Engineer","Backend Developer"],
+    loop: true, typeSpeed: 90, backSpeed: 60, backDelay: 1400,
+  });
+
+  const navLinks = document.querySelectorAll('nav ul li a');
+  const sections = document.querySelectorAll('section[id]');
+
+  wrapper.addEventListener('scroll', () => {
+    const scrollY = wrapper.scrollTop;
+    header.classList.toggle('scrolled', scrollY > 10);
+    backBtn.classList.toggle('visible', scrollY > 300);
+    let current = '';
+    sections.forEach(sec => { if (scrollY >= sec.offsetTop - 130) current = sec.id; });
+    navLinks.forEach(a => { a.classList.toggle('active-nav', a.getAttribute('href') === '#' + current); });
+  });
+
+  backBtn.addEventListener('click', () => { wrapper.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
     });
-  </script>
-</body>
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  document.querySelectorAll('.filterBtn').forEach(btn => {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.filterBtn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.dataset.filter;
+      document.querySelectorAll('.projectCard').forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.category === filter) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
 </html>
